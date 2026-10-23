@@ -44,7 +44,7 @@ def main():
 
         screen.blit(background, (0, 0))
         Blue = (173, 216, 230)
-        heading = title_font.render("Cute Wildlife World!", True, Blue)
+        heading = title_font.render("Wildlife World!", True, Blue)
         screen.blit(heading, heading.get_rect(center=(250, 30)))
 
         screen.blit(bunny, (135, 270))
